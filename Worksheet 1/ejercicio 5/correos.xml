@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<correos>
+	<correo>
+	    <to>Javi</to>
+		<from>Fran</from>
+		<asunto>Prueba</asunto>
+		<body>Probando AJAX</body>
+	</correo>
+</correos>
