@@ -1,5 +1,6 @@
 <?php
 	if ($_GET) {
+		header('Content-Type: text/html; charset=utf-8');
 		if (isset($_GET["nacimiento"])) {
 			$fecha_dividida = explode("/", $_GET["nacimiento"]);
 			//Mes,Dia,Año
@@ -26,6 +27,7 @@
 			}
 		}
 	}else if ($_POST) {
+		header('Content-Type: text/html; charset=utf-8');
 		if (isset($_POST["nacimiento"])) {
 			$fecha_dividida = explode("/", $_POST["nacimiento"]);
 			//Mes,Dia,Año

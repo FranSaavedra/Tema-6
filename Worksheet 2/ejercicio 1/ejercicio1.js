@@ -33,9 +33,9 @@ function validarDatosPOST() {
 
 window.onload = function(){
 	document.getElementById("submit-get").onclick = function(){
-		validarDatos();
+		validarDatosGET();
 	};
 	document.getElementById("submit-post").onclick = function(){
-		validarDatosGET();
+		validarDatosPOST();
 	};
 };
