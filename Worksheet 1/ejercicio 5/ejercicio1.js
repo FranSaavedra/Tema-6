@@ -24,6 +24,7 @@ function comprobarCorreo() {
 }
 
 window.onload = function(){
+	comprobarCorreo();
 	setInterval(function() {
 		comprobarCorreo();
 	}, 10000);
